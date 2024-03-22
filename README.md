@@ -1,9 +1,9 @@
-# \[Group name\]
+# \[Alberto, Frederik, Patryk\]
 
 **Group members:**
-- A
-- B
-- C
+- Alberto Laconi
+- Frederik Juhl
+- Patryk Brogowski
 
 This repository contains  
 1. Inaugural project. 
