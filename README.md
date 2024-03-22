@@ -1,4 +1,4 @@
-# \Alberto, Frederik, Patryk\
+# Alberto, Frederik, Patryk
 
 **Group members:**
 - Alberto Laconi
