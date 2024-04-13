@@ -1,6 +1,6 @@
 # Data analysis project
 
-Our project is titled **EFFICIENCY OF THE US FEDERAL BANK** and is about COMPARING THE CALCULATED THEORETICAL POLICY RATE OF THE FEDERAL BANK TO THE HISORICAL RATE.
+Our project is titled **EFFICIENCY OF THE US FEDERAL BANK** and is about COMPARING THE CALCULATED THEORETICAL POLICY RATE OF THE FEDERAL BANK TO THE HISTORICAL RATE.
 
 The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
