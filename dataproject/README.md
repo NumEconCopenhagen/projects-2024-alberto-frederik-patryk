@@ -9,7 +9,7 @@ We apply the **following datasets**:
 1. HLW Estimation Natural Rate of Interest.xlsx (*https://www.newyorkfed.org/research/policy/rstar*) 
 2. Inflation rate .xls(*https://fred.stlouisfed.org/series/CORESTICKM159SFRBATL*)
 3. Real Gross Domestic Product .xls (*https://fred.stlouisfed.org/series/GDPC1*)
-4. eal Potential Gross Domestic Product .xls (*https://fred.stlouisfed.org/series/GDPPOT*)
+4. Real Potential Gross Domestic Product .xls (*https://fred.stlouisfed.org/series/GDPPOT*)
 5. FEDFUNDS.xls (*https://fred.stlouisfed.org/series/FEDFUNDS#0*)
 
 
