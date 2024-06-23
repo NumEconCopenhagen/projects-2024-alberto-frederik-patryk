@@ -5,7 +5,7 @@ import pandas as pd
 
 class OilCartelModel:
     def __init__(self, TD0=18, S0=6.5, CS0=0, R0=500, delta=0.05, N=40, slope_demand=0.13,
-                 slope_supply=0.1, alpha=0.02, S_hat=7, g=0.015, c=0.5, start_year=1975):
+                 slope_supply=0.1, alpha=0.02, S_hat=7, g=0.015, c=0.5, start_year=1975, display_dataframe=0):
         """
         Initializes Pindyck's OPEC Cartel Model with default parameters. The model is from the article: 
         
@@ -42,6 +42,7 @@ class OilCartelModel:
         self.c = c
         self.start_year = start_year
         self.P_initial = np.full(N, 14)  # Initial price guess
+        self.display_dataframe = display_dataframe
 
     def calculate_next(self, TD_prev, S_prev, CS_prev, R_prev, P_t, t):
         """
@@ -106,9 +107,11 @@ class OilCartelModel:
             'Cartel Reserves (R_t)': optimal_reserves
         }
         df = pd.DataFrame(data)
-        blankIndex = [''] * len(df)
-        df.index = blankIndex
-        display(df.round(2))
+        
+        if self.display_dataframe == 1:
+            blankIndex = [''] * len(df)
+            df.index = blankIndex
+            display(df.round(2))
 
         plt.figure(figsize=(14, 7))
         plt.subplot(1, 2, 1)
