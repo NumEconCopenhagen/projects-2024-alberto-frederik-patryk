@@ -2,9 +2,7 @@
 
 The **results** of the project can be seen from running [inauguralproject.ipynb](inauguralproject.ipynb).
 
-# Exchange Economy Project
-
-## Project Overview
+## Exchange Economy Project - Project Overview
 
 This project examines a simple economic model of an exchange economy with two consumers, A and B, and two goods, x1 and x2. The objective is to solve and simulate the model, visualize the results, and present the findings. The project involves applying numerical solution methods, structuring the code effectively, documenting the code, and presenting the results in text form and figures.
 
